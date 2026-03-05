@@ -4,3 +4,6 @@ body{
     background-color:yellow;
     font-family:"Avenir Next";
 }
+li{
+    list-style:none;
+}
