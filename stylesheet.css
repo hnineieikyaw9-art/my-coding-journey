@@ -1,9 +1,20 @@
 body{
-    color:purple;
-    font-size:40px;
-    background-color:yellow;
-    font-family:"Avenir Next";
+    font-family:"Lucida Grande", sans-serif; margin:0;
 }
-li{
-    list-style:none;
+.header{
+    background-color:#2f3e4f;
+    color:white;
+    padding:20px;
+    text-align:center;
 }
+.main{
+    padding:40px;
+    background-color:#f5f5f5;
+}
+.footer{
+    background-color:2f3e4f;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
+    
