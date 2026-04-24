@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .content{
+            background-color: white;
+            width: 400px;
+            height: 80%;
+            margin:auto;
+            border-radius: 8px;
+
+        }
+        .title{
+            text-align: center;
+            margin-top: auto;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            font-size: 30px;
+            color: cadetblue;
+        }
+        label{
+            display: block;
+            margin:0px 20px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+
+        }
+        .user-input{
+            width: 80%;
+            padding:10px 15px;
+            margin:0px 20px;
+            border:1px solid;
+            border-radius: 5px;
+        }
+        .checkbox-group{
+            margin: 0px 20px;
+            margin-top: 15px;
+        }
+        .checkbox-group span{
+            color:cadetblue
+        
+        }
+        .checkbox-group span:hover{
+            color: darkcyan;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        .register-btn{
+            text-align: center;
+            margin: 0px 20px;
+            width: 89%;
+            border: none;
+            background-color: cadetblue;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 15px;
+            border-radius: 5px;
+            
+        }
+        .register-btn:hover{
+            background-color: darkcyan;
+            font-weight: bolder;
+        }
+        .register-btn:active{
+            color: black;
+            font-weight: bolder;
+        }
+        .footer-text{
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 20px;
+
+        }
+        .footer-text span{
+            color:cadetblue;
+        }
+        .footer-text span:hover{
+            color: darkcyan;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="title">Sign Up</div>
+        <div class="input-group">
+            <label for="">Username:</label>
+            <input type="text" class="user-input" id="username" placeholder="Enter Name"/>
+
+        </div>
+        <div class="input-group">
+            <label for="">Email:</label>
+            <input type="email" class="user-input" id="email" placeholder="abcde@gmail.com"/>
+            
+        </div>
+        <div class="input-group">
+            <label for="">Password:</label>
+            <input type="password" class="user-input" id="password" placeholder="Enter Password"/>
+            
+        </div>
+        <div class="input-group">
+            <label for="">Confirm Password:</label>
+            <input type="password" class="user-input" id="password" placeholder="Confirm Password"/>
+            
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox">I agree with the <span>terms of services</span>
+        </div>
+        <div class="button-group">
+            <button class="register-btn">Register</button>
+        </div>
+        <div class="footer-text">
+            Already a member? <span>Login Here</span>
+        </div>
+    </div>
+    
+</body>
+</html>
